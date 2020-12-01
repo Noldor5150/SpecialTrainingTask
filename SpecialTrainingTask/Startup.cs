@@ -50,7 +50,7 @@ namespace SpecialTrainingTask
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=ToDoItem}/{action=Index}/{id?}");
             });
         }
     }
